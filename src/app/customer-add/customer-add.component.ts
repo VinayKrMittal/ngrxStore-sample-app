@@ -24,9 +24,7 @@ export class CustomerAddComponent implements OnInit {
   }
 
 
-  removeCustomer(customerIndex) {
-    this.store.dispatch(new RemoveCustomer(customerIndex));
-  }
+  
 
   ngOnInit() {
   }
